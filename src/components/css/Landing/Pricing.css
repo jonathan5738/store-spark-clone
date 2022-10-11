@@ -1,0 +1,94 @@
+.pricing {
+    background-color: var(--main-color);
+    padding: var(--desk-padd);
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+}
+.pricing-text {
+    width: 70%;
+    margin: 0 auto;
+}
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4rem;
+}
+.pricing-card {
+    background-color: #fff;
+    border-radius: 10px;
+    /* padding: 3rem; */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.price-btn {
+    display: block;
+}
+.pricing-card-text {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    padding: 0 3rem;
+    padding-bottom: 4rem;
+}
+.pricing-card-text h3 {
+    font-size: 2rem;
+}
+.pricing-card-text p {
+    font-size: 1.5rem;
+}
+.price {
+    font-size: 4rem;
+}
+.duration {
+    display: inline-block;
+    font-size: 2rem;
+    color: #aaaaaa;
+}
+.btn-white.price-btn {
+    box-shadow: 2rem -1.5rem 2rem 0 #bebebe2a;
+}
+.price-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    font-size: 1.5rem;
+}
+.advantages li  {
+    color: #4d4d4d;
+}
+.pricing-text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 7rem;
+}
+.pricing-text h3{
+    font-size: 4rem;
+    padding: 0; margin: 0;
+}
+.pricing-text p {
+    font-size: 1.5rem;
+}
+.pricing-text {
+    margin-bottom: 5rem;
+}
+.price-links-special {
+    margin-top: 23.6rem;
+}
+@media(max-width: 956px){
+    .pricing {
+        padding: var(--mobile-padd);
+        padding-bottom: 10rem;
+    }
+}
+
+@media(max-width: 888px){
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        row-gap: 6rem;
+    }
+}

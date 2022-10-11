@@ -1,0 +1,90 @@
+.hero-section {
+    padding: 0 10rem;
+    background-color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.hero-section-text {
+    width: 80%;
+    margin-top: 8rem;
+}
+.hero-section-content {
+    width: 50%;
+}
+.hero-section-content h2 {
+    font-size: 5.5rem;
+}
+.hero-section-content p {
+    font-size: 1.5rem;
+}
+.hero-section-img {
+    width: 45%;
+    background-image: url('https://uploads-ssl.webflow.com/621cb14364591214cf9b304b/621cd45400297d7c8aa0b832_banner-image-p-500.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    align-self: end;
+}
+.hero-section-img img {
+    width: 50%;
+    position: absolute;
+    left: -15%;
+    top: 50%;
+}
+.hero-section-content-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+@media (max-width: 992px){
+    .hero-section-content {
+        width: 100%;
+    }
+    .hero-section-img  {
+        width: 100%; 
+        margin-top: 10rem;
+    }
+}
+@media (max-width: 987px) {
+    .hero-section-img {
+        display: none;
+    }
+}
+@media(max-width: 700px){
+    .hero-section-text {
+        width: 100%;
+    }
+    .hero-section {
+        padding: var(--mobile-padd);
+        padding-bottom: 7rem;
+    }
+    .hero-section-img img {
+        width: 50%;
+        position: absolute;
+        left: -3%;
+        top: 40%;
+    }
+    .hero-section-content-links a {
+        width: 100%;
+    }
+}
+@media (max-width: 699px){
+    .hero-section-img {
+        width: 100%;
+    }
+}
+@media (max-width: 544px){
+    .hero-section-content h2 {
+        font-size: 4rem;
+    }
+}
+@media(max-width: 452px){
+    .hero-section-content h2 {
+        font-size: 3rem;
+    }
+}
